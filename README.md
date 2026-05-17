@@ -1,6 +1,8 @@
-<img width="720" height="1612" alt="quickchat" src="https://github.com/user-attachments/assets/8c3177f3-57cd-406d-a4b8-878131d97f3d" />
+# 📱 QuickChat
 
 <div align="center">
+  
+<img width="720" height="1612" alt="quickchat" src="https://github.com/user-attachments/assets/8c3177f3-57cd-406d-a4b8-878131d97f3d" />
 
 <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
 <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
@@ -8,8 +10,6 @@
 <img src="https://img.shields.io/badge/Min API-21-orange?style=flat-square"/>
 <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square"/>
 
-
-<h1>📱 QuickChat</h1>
 
 **A real-time Bluetooth Classic chat application for Android.**  
 Send messages, images, and files between two devices — no internet required.
