@@ -137,7 +137,9 @@ Run ▶ → Select your device → OK
 QuickChat uses a custom binary protocol over RFCOMM. Every packet has a **5-byte header** followed by a variable-length payload:
 
 ```
+
 [ TYPE (1 byte) ][ LENGTH (4 bytes) ][ PAYLOAD (LENGTH bytes) ]
+
 ```
 
 | Type Code | Packet Name | Purpose |
@@ -157,13 +159,14 @@ QuickChat uses a custom binary protocol over RFCOMM. Every packet has a **5-byte
 
 The following permissions are required and requested at runtime on Android 12+:
 
-```xml
-<uses-permission android:name="android.permission.BLUETOOTH"/>
-<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
-<uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
-<uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+| Permission | Required For | Android Version |
+|------------|-------------|-----------------|
+| `BLUETOOTH` | Basic Bluetooth operations | All versions |
+| `BLUETOOTH_ADMIN` | Device discovery & pairing | All versions |
+| `BLUETOOTH_CONNECT` | Connecting to paired devices | Android 12+ |
+| `BLUETOOTH_SCAN` | Scanning for nearby devices | Android 12+ |
+| `ACCESS_FINE_LOCATION` | Bluetooth device discovery | Android 6+ |
+| `READ_EXTERNAL_STORAGE` | Picking files to send | All versions |
 ```
 
 ---
@@ -195,3 +198,12 @@ The demo shows:
 <div align="center">
 Made with ❤️ by <strong>Niha Hawas</strong> — SZABIST Islamabad 2025
 </div>
+
+---
+
+👨‍💻 Author
+
+Developed by: Niha Hawas
+GitHub: Niha Hawas https://github.com/nihahawas
+LinkedIn: Niha Hawas https://www.linkedin.com/nihahawas45
+
