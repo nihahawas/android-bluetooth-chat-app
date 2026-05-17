@@ -195,14 +195,16 @@ The demo shows:
 
 ---
 
+## 👨‍💻 Author
+
+Developed by: Niha Hawas
+- 🐙 GitHub: [github.com/nihahawas](https://github.com/nihahawas)
+- 💼 LinkedIn: [linkedin.com/in/nihahawas45](https://linkedin.com/in/nihahawas45)
+
+---
+
 <div align="center">
 Made with ❤️ by <strong>Niha Hawas</strong> — SZABIST Islamabad 2025
 </div>
 
 ---
-
-## 👨‍💻 Author
-
-Developed by: Niha Hawas
-[![GitHub](https://img.shields.io/badge/GitHub-nihahawas-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nihahawas)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nihahawas45-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/nihahawas45)
