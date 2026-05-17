@@ -149,7 +149,7 @@ QuickChat uses a custom binary protocol over RFCOMM. Every packet has a **5-byte
 | `0x05` | ACK | Delivery acknowledgement (success/failure) |
 | `0x06` | PING | Keep-alive signal |
 
-> 📄 See the full **[Protocol Design Document](./Protocol_Design_Document.pdf)** for byte-level details, flow diagrams, and error handling.
+> 📄 See the full **[Protocol Design Document]([./Protocol_Design_Document.pd](https://github.com/nihahawas/bluetooth-chat-application/blob/master/protocol%20design%20document.pdf)f)** for byte-level details, flow diagrams, and error handling.
 
 ---
 
