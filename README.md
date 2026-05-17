@@ -217,5 +217,3 @@ Developed by: Niha Hawas
 <div align="center">
 Made with ❤️ by <strong>Niha Hawas</strong> — SZABIST Islamabad 2025
 </div>
-
----
