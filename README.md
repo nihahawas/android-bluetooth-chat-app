@@ -71,21 +71,30 @@ Built as part of the **CNDC assignment** at SZABIST Islamabad, the app covers de
 ## 📁 Project Structure
 
 ```
-QuickChat-Bluetooth/
-├── app/
+bluetooth-chat-application/
+├── .idea/                          ← Android Studio project settings
+├── app/                            ← Main application module
 │   └── src/
 │       └── main/
 │           ├── java/com/example/quickchat/
 │           │   ├── MainActivity.kt        ← Chat UI + device discovery
-│           │   └── BluetoothService.kt    ← Connection + data transfer logic
+│           │   └── BluetoothService.kt    ← Connection + data transfer
 │           ├── res/
 │           │   ├── layout/
 │           │   │   └── activity_main.xml  ← Main UI layout
 │           │   └── drawable/
-│           │       └── bg_input.xml       ← Input field background shape
+│           │       └── bg_input.xml       ← Input field background
 │           └── AndroidManifest.xml        ← Permissions & app config
-├── .gitignore
-└── README.md
+├── gradle/                         ← Gradle wrapper files
+├── .gitignore                      ← Git ignored files
+├── README.md                       ← Project documentation
+├── build.gradle.kts                ← Project build config
+├── gradle.properties               ← Gradle properties
+├── gradlew                         ← Gradle wrapper (Linux/Mac)
+├── gradlew.bat                     ← Gradle wrapper (Windows)
+├── settings.gradle.kts             ← Project settings
+├── protocol design document.pdf   ← Protocol design document
+└── quickchat.jpeg                  ← App screenshot
 ```
 
 ---
