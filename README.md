@@ -134,13 +134,13 @@ Run ▶ → Select your device → OK
 
 ## 📡 Protocol Design
 
+> 📄 See the full **[Protocol Design Document]([./Protocol_Design_Document.pd](https://github.com/nihahawas/bluetooth-chat-application/blob/master/protocol%20design%20document.pdf)f)** for byte-level details, flow diagrams, and error handling.
+
 QuickChat uses a custom binary protocol over RFCOMM. Every packet has a **5-byte header** followed by a variable-length payload:
 
-```
 
 [ TYPE (1 byte) ][ LENGTH (4 bytes) ][ PAYLOAD (LENGTH bytes) ]
 
-```
 
 | Type Code | Packet Name | Purpose |
 |-----------|-------------|---------|
@@ -150,8 +150,6 @@ QuickChat uses a custom binary protocol over RFCOMM. Every packet has a **5-byte
 | `0x04` | FILE_END | End of file + MD5 checksum for verification |
 | `0x05` | ACK | Delivery acknowledgement (success/failure) |
 | `0x06` | PING | Keep-alive signal |
-
-> 📄 See the full **[Protocol Design Document]([./Protocol_Design_Document.pd](https://github.com/nihahawas/bluetooth-chat-application/blob/master/protocol%20design%20document.pdf)f)** for byte-level details, flow diagrams, and error handling.
 
 ---
 
@@ -167,7 +165,6 @@ The following permissions are required and requested at runtime on Android 12+:
 | `BLUETOOTH_SCAN` | Scanning for nearby devices | Android 12+ |
 | `ACCESS_FINE_LOCATION` | Bluetooth device discovery | Android 6+ |
 | `READ_EXTERNAL_STORAGE` | Picking files to send | All versions |
-
 
 ---
 
