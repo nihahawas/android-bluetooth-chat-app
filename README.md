@@ -109,8 +109,8 @@ QuickChat-Bluetooth/
 
 ## 👨‍💻 Author
 
-**[Your Name]**
-BSCS-6B — SZABIST Islamabad
+**[Niha Hawas]**
+
 CNDC Assignment — Bluetooth Chat App
 
 ---
