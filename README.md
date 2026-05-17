@@ -11,9 +11,7 @@
 <img src="https://img.shields.io/badge/Transport-Bluetooth Classic-0082FC?style=flat-square&logo=bluetooth&logoColor=white"/>
 <img src="https://img.shields.io/badge/Min API-21-orange?style=flat-square"/>
 <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square"/>
-
 <br><br>
-
 [Features](#-features) · [How to Run](#-how-to-run) · [How to Connect](#-how-to-connect--chat) · [Protocol](#-protocol-design) · [Permissions](#-permissions)
 
 </div>
