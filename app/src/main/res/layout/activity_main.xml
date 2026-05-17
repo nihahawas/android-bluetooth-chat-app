@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#111118"
+    android:fitsSystemWindows="true">
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--              HEADER                    -->
+    <!-- ═══════════════════════════════════════ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#12002A"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="18dp"
+        android:paddingBottom="0dp"
+        android:elevation="12dp">
+
+        <!-- Logo Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <!-- QC Icon Box -->
+            <LinearLayout
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:background="#7C3AED">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="QC"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <!-- Title -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="14dp">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="QUICK CHAT"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:letterSpacing="0.18" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bluetooth  ·  Instant  ·  Secure"
+                    android:textSize="10sp"
+                    android:textColor="#9D6FD4"
+                    android:letterSpacing="0.05" />
+
+            </LinearLayout>
+
+            <!-- Signal Bars -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="bottom">
+
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="7dp"
+                        android:background="#5B21B6"
+                        android:layout_marginEnd="3dp" />
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="12dp"
+                        android:background="#7C3AED"
+                        android:layout_marginEnd="3dp" />
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="17dp"
+                        android:background="#A855F7"
+                        android:layout_marginEnd="3dp" />
+                    <View
+                        android:layout_width="3dp"
+                        android:layout_height="23dp"
+                        android:background="#EC4899" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SIGNAL"
+                    android:textSize="7sp"
+                    android:textColor="#444455"
+                    android:letterSpacing="0.15"
+                    android:layout_marginTop="3dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Status Bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="#1C0A2E"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp">
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:background="#FF4D4D"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Status: Not Connected"
+                android:textSize="12sp"
+                android:textColor="#665577"
+                android:letterSpacing="0.03" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFFLINE"
+                android:textSize="8sp"
+                android:textColor="#FF4D4D"
+                android:textStyle="bold"
+                android:letterSpacing="0.15"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:background="#2A0A0A" />
+
+        </LinearLayout>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/btnShowDevices"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="◈  PAIRED"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#A855F7"
+                android:letterSpacing="0.12"
+                android:backgroundTint="#1E0A35"
+                android:stateListAnimator="@null" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:background="#111118" />
+
+            <Button
+                android:id="@+id/btnScan"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="▶  SERVER"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#EC4899"
+                android:letterSpacing="0.12"
+                android:backgroundTint="#2A0A1E"
+                android:stateListAnimator="@null" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--           DEVICES SECTION              -->
+    <!-- ═══════════════════════════════════════ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#16141E"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AVAILABLE / PAIRED DEVICES"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            android:textColor="#3A3A55"
+            android:letterSpacing="0.25" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listDevices"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#16141E"
+        android:divider="#1E1B2E"
+        android:dividerHeight="1dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp" />
+
+    <!-- Separator -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1E1B2E" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--           CHAT LABEL                   -->
+    <!-- ═══════════════════════════════════════ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#111118"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="6dp">
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="12dp"
+            android:background="#7C3AED"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHAT MESSAGES"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            android:textColor="#3A3A55"
+            android:letterSpacing="0.25" />
+
+    </LinearLayout>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--           CHAT SCROLL AREA             -->
+    <!-- ═══════════════════════════════════════ -->
+    <ScrollView
+        android:id="@+id/scrollChat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#111118"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:fillViewport="true"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:id="@+id/chatContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="4dp" />
+
+    </ScrollView>
+
+    <!-- File Transfer Progress -->
+    <ProgressBar
+        android:id="@+id/progressFile"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:max="100"
+        android:progress="0"
+        android:visibility="gone"
+        android:progressTint="#A855F7"
+        android:progressBackgroundTint="#1E1B2E" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--       BOTTOM MESSAGE BAR               -->
+    <!-- ═══════════════════════════════════════ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#16141E"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:elevation="20dp">
+
+        <Button
+            android:id="@+id/btnAttach"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:text="+"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#7C3AED"
+            android:textAllCaps="false"
+            android:backgroundTint="#1E0A35"
+            android:stateListAnimator="@null"
+            android:padding="0dp" />
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:hint="Type a message..."
+            android:textSize="13sp"
+            android:textColor="#DDCCFF"
+            android:textColorHint="#2E2A40"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:background="#1E1B2E"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:inputType="textShortMessage" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="68dp"
+            android:layout_height="44dp"
+            android:text="➤"
+            android:textSize="19sp"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:backgroundTint="#7C3AED"
+            android:stateListAnimator="@null"
+            android:padding="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
