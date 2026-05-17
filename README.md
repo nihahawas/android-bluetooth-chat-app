@@ -145,12 +145,13 @@ Run ▶ → Select your device → OK
 
 > 📄 See the full **[Protocol Design Document]([./Protocol_Design_Document.pd](https://github.com/nihahawas/bluetooth-chat-application/blob/master/protocol%20design%20document.pdf)f)** for byte-level details, flow diagrams, and error handling.
 
-QuickChat uses a custom binary protocol over RFCOMM. Every packet has a **5-byte header** followed by a variable-length payload:
-
 
 ---
 
 ## Quick Summary
+
+QuickChat uses a custom binary protocol over RFCOMM. Every packet has a **5-byte header** followed by a variable-length payload:
+
 
 [ TYPE (1 byte) ][ LENGTH (4 bytes) ][ PAYLOAD (LENGTH bytes) ]
 
