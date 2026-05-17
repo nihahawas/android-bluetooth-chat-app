@@ -170,7 +170,7 @@ The following permissions are required and requested at runtime on Android 12+:
 
 ## 🎥 Demo Video
 
-> 📹 **[Watch Demo Video](#)** ← *(replace # with your actual video link)*
+> 📹 **[Watch Demo Video](#)** 
 
 The demo shows:
 - Two real Android devices connecting over Bluetooth
@@ -188,7 +188,7 @@ The demo shows:
 | Institute | SZABIST Islamabad |
 | Course | CNDC — Computer Networks & Data Communications |
 | Assignment | Bluetooth Chat Application |
-| Year | 2025 |
+| Year | 2026 |
 
 ---
 
