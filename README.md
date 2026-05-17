@@ -167,7 +167,7 @@ The following permissions are required and requested at runtime on Android 12+:
 | `BLUETOOTH_SCAN` | Scanning for nearby devices | Android 12+ |
 | `ACCESS_FINE_LOCATION` | Bluetooth device discovery | Android 6+ |
 | `READ_EXTERNAL_STORAGE` | Picking files to send | All versions |
-```
+
 
 ---
 
@@ -201,9 +201,8 @@ Made with ❤️ by <strong>Niha Hawas</strong> — SZABIST Islamabad 2025
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Developed by: Niha Hawas
-GitHub: Niha Hawas https://github.com/nihahawas
-LinkedIn: Niha Hawas https://www.linkedin.com/nihahawas45
-
+[![GitHub](https://img.shields.io/badge/GitHub-nihahawas-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/nihahawas)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nihahawas45-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/nihahawas45)
