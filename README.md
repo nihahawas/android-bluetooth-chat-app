@@ -14,10 +14,6 @@
 
 <br><br>
 
-**A real-time Bluetooth Classic chat application for Android.**
-Send messages, images, and files between two devices — no internet required.
-
-<br>
 
 [Features](#-features) · [How to Run](#-how-to-run) · [How to Connect](#-how-to-connect--chat) · [Protocol](#-protocol-design) · [Permissions](#-permissions)
 
