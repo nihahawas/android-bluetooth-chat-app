@@ -139,6 +139,10 @@ Run ▶ → Select your device → OK
 QuickChat uses a custom binary protocol over RFCOMM. Every packet has a **5-byte header** followed by a variable-length payload:
 
 
+---
+
+## Quick Summary
+
 [ TYPE (1 byte) ][ LENGTH (4 bytes) ][ PAYLOAD (LENGTH bytes) ]
 
 
