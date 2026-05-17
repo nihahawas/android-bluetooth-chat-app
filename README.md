@@ -14,7 +14,6 @@
 
 <br><br>
 
-
 [Features](#-features) · [How to Run](#-how-to-run) · [How to Connect](#-how-to-connect--chat) · [Protocol](#-protocol-design) · [Permissions](#-permissions)
 
 </div>
