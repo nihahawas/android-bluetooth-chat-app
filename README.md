@@ -2,7 +2,8 @@
 
 # 📱 QuickChat — Bluetooth Chat Application
 
-<img width="360" height="806" alt="quickchat" src="https://github.com/user-attachments/assets/8c3177f3-57cd-406d-a4b8-878131d97f3d" />
+<img width="714" height="1599" alt="quickchattt" src="https://github.com/user-attachments/assets/360e830c-fb31-499b-b544-8f0d7eaa42b4" />
+
 
 <br><br>
 
